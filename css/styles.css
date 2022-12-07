@@ -229,7 +229,7 @@ navbar ul,
 .textos {
   display: flex;
   flex-direction: column;
-
+  margin-left: 75px;
 }
 .textos p{
       margin-bottom: 0px !important;
