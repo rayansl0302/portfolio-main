@@ -64,7 +64,7 @@ navbar ul,
 /* Banner */
 #main-banner {
   height: 70vh;
-  background-image: url("../image/background.jpg");
+  background-image: url("../image/background-new.jpg");
   background-size: cover;
   padding-top: 15vh;
 }
@@ -94,6 +94,10 @@ navbar ul,
   margin-right: auto;
   padding: 15px;
   border: 1px solid #ddd;
+}
+#banner-info h1 {
+  background: #2c2c2c;
+  border: 1px solid;
 }
 
 /* About */
@@ -217,7 +221,7 @@ navbar ul,
 .proj3 {
   background-image: url("../image/port.png");
 }
-.proj4{
+.proj4 {
   background-image: url("../image/e-massa.png");
 }
 .projetos-elaborados {
@@ -231,11 +235,10 @@ navbar ul,
   flex-direction: column;
   margin-left: 75px;
 }
-.textos p{
-      margin-bottom: 0px !important;
-
+.textos p {
+  margin-bottom: 0px !important;
 }
-.projetos-elaborados .job-container{
+.projetos-elaborados .job-container {
   flex-direction: column;
 }
 /* FOOTER */
@@ -274,7 +277,7 @@ footer .detail {
 }
 
 /* Responsivo */
-@media (max-width: 450px) {
+@media (max-width: 850px) {
   /*Geral*/
   p,
   input,
@@ -333,6 +336,12 @@ footer .detail {
     padding: 25px;
   }
 
+  .projetos-elaborados {
+    flex-wrap: wrap;
+  }
+  .projetos-elaborados .textos {
+    margin-left: 0px;
+  }
   .central {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
